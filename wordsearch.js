@@ -1,3 +1,5 @@
+// Pair programming - pair programmed with Lucas Kitteridge (Github username: lucaskitteridge)
+
 const wordSearch = (letters, word) => { 
     const horizontalJoin = letters.map(ls => ls.join(''))
     for (l of horizontalJoin) {
